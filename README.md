@@ -1,20 +1,7 @@
 #📄 Selenium Test Automation Suite - Cura Healthcare
 
 ## 📂 Project Structure
-src
-└── test
-├── java
-│   ├── tests
-│   │   ├── positiveTestCaseScenarios
-│   │   │   ├── BookAppointmentAllOptions.java
-│   │   │   ├── PositiveLoginTest.java
-│   │   │   └── TestLogoutFunctionality.java
-│   │   └── negativeTestCaseScenarios
-│   │       ├── BookAppointmentWithoutSelectingTheFacility.java
-│   │       ├── EmptyFieldsInsideLogin.java
-│   │       ├── EmptyFieldsTest.java
-│   │       └── InvalidLoginTest.java
-└── README.md
+![](src/main/resources/images/1.png)
 
 | Test Class                  | Description                                                         |
 | --------------------------- | ------------------------------------------------------------------- |
