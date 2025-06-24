@@ -1,29 +1,38 @@
+✅ Positive Test Scenarios
+Login Scenarios
 
-✅ Login Scenarios
-Valid Login — Confirm successful login with correct credentials. (You have already done this!)
+✔️ Valid Login — Confirm successful login with correct credentials.
 
-Invalid Login — Incorrect username/password should display an error. (You have already done this!)
+Appointment Booking Scenarios
 
-Empty Fields Login — Try logging in without entering any credentials and verify error.
+✔️ Book Appointment with All Options Selected — Validate complete and successful booking flow.
 
-✅ Appointment Booking Scenarios
-Book Appointment with All Options Selected — Current one you’ve done.
+Input Field Validations
 
-Book Appointment Without Selecting Facility — Leave dropdown blank and check behavior.
+✔️ Input Special Characters in Comment Box — Check if special characters are accepted.
 
-Book Appointment Without Visit Date — Submit without selecting a date and validate error.
+✔️ Input Long Text in Comment Box — Verify that long text is accepted/displayed properly.
 
-Book Appointment Without Selecting Healthcare Program — Try submitting without selecting a program.
+Navigation & UI Checks
 
-✅ Input Field Validations
-Input Special Characters in Comment Box — Check if it accepts special characters.
+✔️ Test Logout Functionality — Ensure logout redirects to login page.
 
-Input Long Text in Comment Box — Enter a large string and verify if it is accepted/displayed correctly.
+✔️ Test Make Appointment Button on Home Page — Validate that it redirects to login page if the user is not logged in.
 
-✅ Navigation & UI Checks
-Test Logout Functionality — After booking, test that logout brings you back to login page.
+✔️ Test Browser Back Button Behavior — After logout or booking, verify proper session handling when using back button.
 
-Test Make Appointment Button on Home Page — Verify that the button redirects to login page if not logged in.
+❌ Negative Test Scenarios
+Login Scenarios
 
-Test Browser Back Button Behavior — After booking/logging out, click back and check session handling.
+❌ Invalid Login — Incorrect username/password should display an error.
+
+❌ Empty Fields Login — Attempt to log in without entering credentials and verify error message.
+
+Appointment Booking Scenarios
+
+❌ Book Appointment Without Selecting Facility — Leave facility dropdown blank and check for error.
+
+❌ Book Appointment Without Visit Date — Submit form without selecting a date and verify error.
+
+❌ Book Appointment Without Selecting Healthcare Program — Submit without selecting a program and validate error.
 

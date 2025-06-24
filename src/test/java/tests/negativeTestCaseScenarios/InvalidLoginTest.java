@@ -41,6 +41,7 @@ public class InvalidLoginTest {
         WebElement clickOnLogin = driver.findElement(By.xpath("//*[@id=\"btn-login\"]"));
         clickOnLogin.click();
 
+        //wait for 3 seconds for the message to appear
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(3));
 
 
