@@ -1,4 +1,4 @@
-package tests;
+package tests.positiveTestCaseScenarios;
 
 import jdk.jfr.Description;
 import org.openqa.selenium.By;

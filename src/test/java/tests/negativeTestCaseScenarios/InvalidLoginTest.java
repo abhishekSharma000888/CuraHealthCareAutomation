@@ -1,4 +1,4 @@
-package tests;
+package tests.negativeTestCaseScenarios;
 
 import jdk.jfr.Description;
 import org.openqa.selenium.By;
@@ -10,7 +10,7 @@ import org.testng.annotations.Test;
 
 import java.time.Duration;
 
-public class NegativeLoginTest {
+public class InvalidLoginTest {
 
     @Description("Negative credentials to login into the Cura Healthcare Services!")
     @Test
