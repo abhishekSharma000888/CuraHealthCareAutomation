@@ -32,7 +32,5 @@ Appointment Booking Scenarios
 
 ❌ Book Appointment Without Selecting Facility — Leave facility dropdown blank and check for error.
 
-❌ Book Appointment Without Visit Date — Submit form without selecting a date and verify error.
-
 ❌ Book Appointment Without Selecting Healthcare Program — Submit without selecting a program and validate error.
 
